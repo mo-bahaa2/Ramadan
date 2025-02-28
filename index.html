@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رمضان كريم</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" as="style">
+    <link rel="shortcut icon" href="./image/pngtree-ramadan-lantern-cartoon-colored-clipart-colorful-cartoon-mubarak-vector-png-image_12912463-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- زينة رمضان -->
+    <div class="decoration">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="moon"></div>
+    </div>
+
+    <div class="container">
+        <h1>🌙 رمضان كريم 🌙</h1>
+        <input type="text" id="nameInput" placeholder="اكتب اسمك هنا...">
+        <button id="greetButton">اضغط هنا</button>
+    </div>
+
+    <!-- نافذة div -->
+    <div id="greetingModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="./image/pngtree-ramadan-lantern-cartoon-colored-clipart-colorful-cartoon-mubarak-vector-png-image_12912463-removebg-preview.png" alt="فانوس رمضان" class="lantern hidden">
+            <p id="greetingText" class=""></p>
+        </div>
+    </div>
+
+    <div class="madeBy">
+        <p>صنع بكل حب من محمد بهاء</p>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
